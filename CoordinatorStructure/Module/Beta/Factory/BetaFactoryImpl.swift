@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+extension ModuleFactoryImpl: BetaFactory {
+    func createPrimeroView() -> PrimeroView {
+        return PrimeroVC()
+    }
+    
+    func createSegundoView() -> SegundoView {
+        return SegundoVC()
+    }
+}

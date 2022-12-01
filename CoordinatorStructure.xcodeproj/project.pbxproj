@@ -8,22 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		99C52BFA29388D1300B71DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52BF929388D1300B71DCF /* AppDelegate.swift */; };
-		99C52BFC29388D1300B71DCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52BFB29388D1300B71DCF /* SceneDelegate.swift */; };
-		99C52BFE29388D1300B71DCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52BFD29388D1300B71DCF /* ViewController.swift */; };
-		99C52C0129388D1300B71DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C52BFF29388D1300B71DCF /* Main.storyboard */; };
+		99C52BFE29388D1300B71DCF /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52BFD29388D1300B71DCF /* FirstVC.swift */; };
 		99C52C0329388D1700B71DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C52C0229388D1700B71DCF /* Assets.xcassets */; };
 		99C52C0629388D1700B71DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C52C0429388D1700B71DCF /* LaunchScreen.storyboard */; };
+		99C52C1329388FB700B71DCF /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C1229388FB700B71DCF /* BaseCoordinator.swift */; };
+		99C52C1629388FF800B71DCF /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C1529388FF800B71DCF /* BaseView.swift */; };
+		99C52C1E293891A200B71DCF /* AlphaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C1D293891A200B71DCF /* AlphaFactory.swift */; };
+		99C52C20293891BE00B71DCF /* AlphaFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C1F293891BE00B71DCF /* AlphaFactoryImpl.swift */; };
+		99C52C23293891EF00B71DCF /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C22293891EF00B71DCF /* ModuleFactory.swift */; };
+		99C52C252938920500B71DCF /* ModuleFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C242938920500B71DCF /* ModuleFactoryImpl.swift */; };
+		99C52C2A2938932A00B71DCF /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C292938932A00B71DCF /* UIViewController+Extensions.swift */; };
+		99C52C2D2938938A00B71DCF /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C2C2938938A00B71DCF /* FirstView.swift */; };
+		99C52C30293893E400B71DCF /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C2F293893E400B71DCF /* SecondView.swift */; };
+		99C52C32293893ED00B71DCF /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C31293893ED00B71DCF /* SecondVC.swift */; };
+		99C52C362938962B00B71DCF /* AlphaCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C352938962B00B71DCF /* AlphaCoordinatorOutput.swift */; };
+		99C52C382938965000B71DCF /* AlphaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C372938965000B71DCF /* AlphaCoordinator.swift */; };
+		99C52C3D2938990200B71DCF /* PrimeroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C3C2938990200B71DCF /* PrimeroVC.swift */; };
+		99C52C3F2938996500B71DCF /* PrimeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C3E2938996500B71DCF /* PrimeroView.swift */; };
+		99C52C422938999500B71DCF /* SegundoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C412938999500B71DCF /* SegundoView.swift */; };
+		99C52C442938999B00B71DCF /* SegundoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C432938999B00B71DCF /* SegundoVC.swift */; };
+		99C52C46293899DD00B71DCF /* BetaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C45293899DD00B71DCF /* BetaFactory.swift */; };
+		99C52C48293899E400B71DCF /* BetaFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C47293899E400B71DCF /* BetaFactoryImpl.swift */; };
+		99C52C4A29389AAB00B71DCF /* BetaCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C4929389AAB00B71DCF /* BetaCoordinatorOutput.swift */; };
+		99C52C4C29389B0200B71DCF /* BetaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C4B29389B0200B71DCF /* BetaCoordinator.swift */; };
+		99C52C4E29389F8E00B71DCF /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C4D29389F8E00B71DCF /* CoordinatorFactory.swift */; };
+		99C52C5029389FC600B71DCF /* CoordinatorFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C4F29389FC600B71DCF /* CoordinatorFactoryImpl.swift */; };
+		99C52C522938A03000B71DCF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C52C512938A03000B71DCF /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99C52BF629388D1300B71DCF /* CoordinatorStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C52BF929388D1300B71DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99C52BFB29388D1300B71DCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		99C52BFD29388D1300B71DCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		99C52C0029388D1300B71DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99C52BFD29388D1300B71DCF /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		99C52C0229388D1700B71DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C52C0529388D1700B71DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99C52C0729388D1700B71DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C52C1229388FB700B71DCF /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		99C52C1529388FF800B71DCF /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		99C52C1D293891A200B71DCF /* AlphaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaFactory.swift; sourceTree = "<group>"; };
+		99C52C1F293891BE00B71DCF /* AlphaFactoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaFactoryImpl.swift; sourceTree = "<group>"; };
+		99C52C22293891EF00B71DCF /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		99C52C242938920500B71DCF /* ModuleFactoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactoryImpl.swift; sourceTree = "<group>"; };
+		99C52C292938932A00B71DCF /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		99C52C2C2938938A00B71DCF /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		99C52C2F293893E400B71DCF /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		99C52C31293893ED00B71DCF /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		99C52C352938962B00B71DCF /* AlphaCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaCoordinatorOutput.swift; sourceTree = "<group>"; };
+		99C52C372938965000B71DCF /* AlphaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaCoordinator.swift; sourceTree = "<group>"; };
+		99C52C3C2938990200B71DCF /* PrimeroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeroVC.swift; sourceTree = "<group>"; };
+		99C52C3E2938996500B71DCF /* PrimeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeroView.swift; sourceTree = "<group>"; };
+		99C52C412938999500B71DCF /* SegundoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoView.swift; sourceTree = "<group>"; };
+		99C52C432938999B00B71DCF /* SegundoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoVC.swift; sourceTree = "<group>"; };
+		99C52C45293899DD00B71DCF /* BetaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaFactory.swift; sourceTree = "<group>"; };
+		99C52C47293899E400B71DCF /* BetaFactoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaFactoryImpl.swift; sourceTree = "<group>"; };
+		99C52C4929389AAB00B71DCF /* BetaCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaCoordinatorOutput.swift; sourceTree = "<group>"; };
+		99C52C4B29389B0200B71DCF /* BetaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaCoordinator.swift; sourceTree = "<group>"; };
+		99C52C4D29389F8E00B71DCF /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		99C52C4F29389FC600B71DCF /* CoordinatorFactoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactoryImpl.swift; sourceTree = "<group>"; };
+		99C52C512938A03000B71DCF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +98,212 @@
 		99C52BF829388D1300B71DCF /* CoordinatorStructure */ = {
 			isa = PBXGroup;
 			children = (
+				99C52C0D29388E9C00B71DCF /* App */,
+				99C52C1029388F2500B71DCF /* Core */,
+				99C52C282938931600B71DCF /* Extension */,
+				99C52C182938912200B71DCF /* Module */,
+				99C52C0E29388EA100B71DCF /* SupportingFiles */,
+			);
+			path = CoordinatorStructure;
+			sourceTree = "<group>";
+		};
+		99C52C0D29388E9C00B71DCF /* App */ = {
+			isa = PBXGroup;
+			children = (
 				99C52BF929388D1300B71DCF /* AppDelegate.swift */,
-				99C52BFB29388D1300B71DCF /* SceneDelegate.swift */,
-				99C52BFD29388D1300B71DCF /* ViewController.swift */,
-				99C52BFF29388D1300B71DCF /* Main.storyboard */,
+				99C52C512938A03000B71DCF /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		99C52C0E29388EA100B71DCF /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				99C52C0229388D1700B71DCF /* Assets.xcassets */,
 				99C52C0429388D1700B71DCF /* LaunchScreen.storyboard */,
 				99C52C0729388D1700B71DCF /* Info.plist */,
 			);
-			path = CoordinatorStructure;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		99C52C1029388F2500B71DCF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C1429388FF000B71DCF /* Base */,
+				99C52C17293890F500B71DCF /* Factory */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		99C52C1129388F2F00B71DCF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C4D29389F8E00B71DCF /* CoordinatorFactory.swift */,
+				99C52C4F29389FC600B71DCF /* CoordinatorFactoryImpl.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		99C52C1429388FF000B71DCF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C1229388FB700B71DCF /* BaseCoordinator.swift */,
+				99C52C1529388FF800B71DCF /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		99C52C17293890F500B71DCF /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C1129388F2F00B71DCF /* Coordinator */,
+				99C52C21293891DD00B71DCF /* Module */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		99C52C182938912200B71DCF /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C1C2938918A00B71DCF /* Alpha */,
+				99C52C33293894FA00B71DCF /* Beta */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		99C52C192938914000B71DCF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C372938965000B71DCF /* AlphaCoordinator.swift */,
+				99C52C352938962B00B71DCF /* AlphaCoordinatorOutput.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		99C52C1A2938914B00B71DCF /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C1B2938917700B71DCF /* View */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		99C52C1B2938917700B71DCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C1D293891A200B71DCF /* AlphaFactory.swift */,
+				99C52C1F293891BE00B71DCF /* AlphaFactoryImpl.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99C52C1C2938918A00B71DCF /* Alpha */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C192938914000B71DCF /* Coordinator */,
+				99C52C1A2938914B00B71DCF /* Factory */,
+				99C52C262938925100B71DCF /* Screen */,
+			);
+			path = Alpha;
+			sourceTree = "<group>";
+		};
+		99C52C21293891DD00B71DCF /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C22293891EF00B71DCF /* ModuleFactory.swift */,
+				99C52C242938920500B71DCF /* ModuleFactoryImpl.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		99C52C262938925100B71DCF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C272938927500B71DCF /* First Screen */,
+				99C52C2E293893BE00B71DCF /* Second Screen */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		99C52C272938927500B71DCF /* First Screen */ = {
+			isa = PBXGroup;
+			children = (
+				99C52BFD29388D1300B71DCF /* FirstVC.swift */,
+				99C52C2C2938938A00B71DCF /* FirstView.swift */,
+			);
+			path = "First Screen";
+			sourceTree = "<group>";
+		};
+		99C52C282938931600B71DCF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C292938932A00B71DCF /* UIViewController+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		99C52C2E293893BE00B71DCF /* Second Screen */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C31293893ED00B71DCF /* SecondVC.swift */,
+				99C52C2F293893E400B71DCF /* SecondView.swift */,
+			);
+			path = "Second Screen";
+			sourceTree = "<group>";
+		};
+		99C52C33293894FA00B71DCF /* Beta */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C342938951300B71DCF /* Coordinator */,
+				99C52C392938984B00B71DCF /* Factory */,
+				99C52C3A2938985100B71DCF /* Screen */,
+			);
+			path = Beta;
+			sourceTree = "<group>";
+		};
+		99C52C342938951300B71DCF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C4B29389B0200B71DCF /* BetaCoordinator.swift */,
+				99C52C4929389AAB00B71DCF /* BetaCoordinatorOutput.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		99C52C392938984B00B71DCF /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C45293899DD00B71DCF /* BetaFactory.swift */,
+				99C52C47293899E400B71DCF /* BetaFactoryImpl.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		99C52C3A2938985100B71DCF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C3B2938986800B71DCF /* Premiro Screen */,
+				99C52C402938998700B71DCF /* Segundo Screen */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		99C52C3B2938986800B71DCF /* Premiro Screen */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C3C2938990200B71DCF /* PrimeroVC.swift */,
+				99C52C3E2938996500B71DCF /* PrimeroView.swift */,
+			);
+			path = "Premiro Screen";
+			sourceTree = "<group>";
+		};
+		99C52C402938998700B71DCF /* Segundo Screen */ = {
+			isa = PBXGroup;
+			children = (
+				99C52C432938999B00B71DCF /* SegundoVC.swift */,
+				99C52C412938999500B71DCF /* SegundoView.swift */,
+			);
+			path = "Segundo Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +366,6 @@
 			files = (
 				99C52C0629388D1700B71DCF /* LaunchScreen.storyboard in Resources */,
 				99C52C0329388D1700B71DCF /* Assets.xcassets in Resources */,
-				99C52C0129388D1300B71DCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +376,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C52BFE29388D1300B71DCF /* ViewController.swift in Sources */,
+				99C52C442938999B00B71DCF /* SegundoVC.swift in Sources */,
+				99C52C20293891BE00B71DCF /* AlphaFactoryImpl.swift in Sources */,
+				99C52C522938A03000B71DCF /* AppCoordinator.swift in Sources */,
+				99C52C48293899E400B71DCF /* BetaFactoryImpl.swift in Sources */,
+				99C52C1E293891A200B71DCF /* AlphaFactory.swift in Sources */,
+				99C52C252938920500B71DCF /* ModuleFactoryImpl.swift in Sources */,
+				99C52C5029389FC600B71DCF /* CoordinatorFactoryImpl.swift in Sources */,
+				99C52C4E29389F8E00B71DCF /* CoordinatorFactory.swift in Sources */,
+				99C52BFE29388D1300B71DCF /* FirstVC.swift in Sources */,
+				99C52C2A2938932A00B71DCF /* UIViewController+Extensions.swift in Sources */,
+				99C52C422938999500B71DCF /* SegundoView.swift in Sources */,
+				99C52C46293899DD00B71DCF /* BetaFactory.swift in Sources */,
+				99C52C3F2938996500B71DCF /* PrimeroView.swift in Sources */,
+				99C52C1329388FB700B71DCF /* BaseCoordinator.swift in Sources */,
+				99C52C32293893ED00B71DCF /* SecondVC.swift in Sources */,
 				99C52BFA29388D1300B71DCF /* AppDelegate.swift in Sources */,
-				99C52BFC29388D1300B71DCF /* SceneDelegate.swift in Sources */,
+				99C52C1629388FF800B71DCF /* BaseView.swift in Sources */,
+				99C52C23293891EF00B71DCF /* ModuleFactory.swift in Sources */,
+				99C52C2D2938938A00B71DCF /* FirstView.swift in Sources */,
+				99C52C382938965000B71DCF /* AlphaCoordinator.swift in Sources */,
+				99C52C4A29389AAB00B71DCF /* BetaCoordinatorOutput.swift in Sources */,
+				99C52C362938962B00B71DCF /* AlphaCoordinatorOutput.swift in Sources */,
+				99C52C30293893E400B71DCF /* SecondView.swift in Sources */,
+				99C52C4C29389B0200B71DCF /* BetaCoordinator.swift in Sources */,
+				99C52C3D2938990200B71DCF /* PrimeroVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		99C52BFF29388D1300B71DCF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99C52C0029388D1300B71DCF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		99C52C0429388D1700B71DCF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +541,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43AMVPK5M6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoordinatorStructure/Info.plist;
+				INFOPLIST_FILE = CoordinatorStructure/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +568,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43AMVPK5M6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoordinatorStructure/Info.plist;
+				INFOPLIST_FILE = CoordinatorStructure/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

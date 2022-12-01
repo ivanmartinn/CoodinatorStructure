@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol SegundoView: BaseView {
+    var onButtonTapped: (()->Void)? { get set }
+}

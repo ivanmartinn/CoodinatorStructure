@@ -1,5 +1,5 @@
 //
-//  ModuleAFactory.swift
+//  AlphaFactory.swift
 //  CoordinatorStructure
 //
 //  Created by Ivan Martin on 01/12/2022.
@@ -7,6 +7,7 @@
 
 import Foundation
 
-protocol ModuleAFactory {
-    
+protocol AlphaFactory {
+    func createFirstView() -> FirstView
+    func createSecondView() -> SecondView
 }

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol BetaFactory {
+    func createPrimeroView() -> PrimeroView
+    func createSegundoView() -> SegundoView
+}

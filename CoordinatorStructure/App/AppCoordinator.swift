@@ -13,9 +13,10 @@ class AppCoordinator: BaseCoordinator {
     var navigationController: UINavigationController?
     var coordinatorFactory: CoordinatorFactory?
     
+    var childCoordinators: [BaseCoordinator] = []
+    
     init(window: UIWindow){
         self.window = window
-        self.coordinatorFactory = CoordinatorFactoryImpl()
     }
     
     func start() {
@@ -29,15 +30,45 @@ class AppCoordinator: BaseCoordinator {
     
     private func runAlphaCoordinator(){
         guard let child = coordinatorFactory?.makeAlphaCoordinator(navigationController: navigationController) else { return }
+        addDependency(child)
         child.onFinish = { [weak self] in
-            
+            self?.removeDependency(child)
         }
+        child.runBetaCoordinator = { [weak self] in
+            self?.runBetaCoordinator()
+        }
+        child.start()
     }
     
     private func runBetaCoordinator(){
         guard let child = coordinatorFactory?.makeBetaCoordinator(navigationController: navigationController) else { return }
+        addDependency(child)
         child.onFinish = { [weak self] in
-            
+            self?.removeDependency(child)
         }
+        child.start()
+    }
+    
+    private func addDependency(_ coordinator: BaseCoordinator){
+        guard !childCoordinators.contains(where: { $0 === coordinator }) else { return }
+        childCoordinators.append(coordinator)
+    }
+    
+    func removeDependency(_ coordinator: BaseCoordinator?) {
+        guard
+            childCoordinators.isEmpty == false,
+            let coordinator = coordinator
+        else { return }
+        
+        for (index, element) in childCoordinators.enumerated() where element === coordinator {
+            childCoordinators.remove(at: index)
+            break
+        }
+        print("dependencies: ",childCoordinators)
+    }
+    
+    func clearDependency(){
+        guard childCoordinators.isEmpty == false else { return }
+        childCoordinators.removeAll()
     }
 }
